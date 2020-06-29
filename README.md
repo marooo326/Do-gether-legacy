@@ -15,7 +15,7 @@ Do-gether은 투두리스트를 다른사람들과 공유할 수 있도록 도�
 # HOW TO USE
 ---
 You can come here and use DO-GETHER.<br>
-[`http://wwww.dogether.tk`](http://wwww.dogether.tk)
+[`http://www.dogether.tk`](http://wwww.dogether.tk)
 ![main](/uploads/9dce27e61dc8a02f8fe0ab37dfaf4df5/main.png)
 <br><br>
 
