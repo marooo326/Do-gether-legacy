@@ -21,25 +21,25 @@ const connection = mysql.createConnection({
   database: conf.database,
 });
 // connection.connect();
-function handleDisconnect() {
-  connection.connect(function (err) {
-    if (err) {
-      console.log("error when connecting to db:", err);
-      setTimeout(handleDisconnect, 4000);
-    }
-  });
+// function handleDisconnect() {
+//   connection.connect(function (err) {
+//     if (err) {
+//       console.log("error when connecting to db:", err);
+//       setTimeout(handleDisconnect, 4000);
+//     }
+//   });
 
-  connection.on("error", function (err) {
-    console.log("db error", err);
-    if (err.code === "PROTOCOL_CONNECTION_LOST") {
-      return handleDisconnect();
-    } else {
-      throw err;
-    }
-  });
-}
+//   connection.on("error", function (err) {
+//     console.log("db error", err);
+//     if (err.code === "PROTOCOL_CONNECTION_LOST") {
+//       return handleDisconnect();
+//     } else {
+//       throw err;
+//     }
+//   });
+// }
 
-handleDisconnect();
+// handleDisconnect();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
