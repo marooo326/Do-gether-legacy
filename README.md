@@ -16,7 +16,9 @@ Do-gether은 투두리스트를 다른사람들과 공유할 수 있도록 도�
 ---
 You can come here and use DO-GETHER.<br>
 [`http://www.dogether.tk`](http://www.dogether.tk)
-![main](/uploads/9dce27e61dc8a02f8fe0ab37dfaf4df5/main.png)
+* Now suspended
+![main](https://github.com/marooo326/Do-gether-legacy/assets/121790935/0d5ef038-6797-4fd4-adb1-4d89adc31c5d)
+
 <br><br>
 
 # HOW TO INSTALL
@@ -77,15 +79,11 @@ Execute this command.
 `vi Do-gether/client/node_modules/react-scripts/config/webpackDevServer.config.js`
 <br><br>
 And change the `disableHostCheck: ...` option to `disableHostCheck: true`.
-![error](/uploads/be3c1c269c2ee157825f6d9e143706fc/error.png)
+![error](https://github.com/marooo326/Do-gether-legacy/assets/121790935/18981df5-72eb-4f8e-84db-8b4a7cf2b1f2)
+
 <br><br>
 
-# Presentation File
----
-You can check my presentation here.
-[2019102153_김대휘.pptx](/uploads/ec22aec2c186128329918ec641a54f73/2019102153_김대휘.pptx)
-<br><br>
 
 # LISENCE
 ---
-Do-gether is free software, and may be redistributed under the terms specified in the [MIT LICENSE](http://khuhub.khu.ac.kr/2019102153/Do-gether/blob/master/LICENSE.txt) file.
+Do-gether is free software, and may be redistributed under the terms specified in the MIT LICENSE.
